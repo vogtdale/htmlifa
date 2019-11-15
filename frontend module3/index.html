@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=MedievalSharp&display=swap" rel="stylesheet">
+
+    <style>
+        .parent {
+            display: grid;
+            grid-template-columns: auto auto auto auto auto auto;
+            grid-gap: 10px;
+            background-color: #2196F3;
+            padding: 10px;
+
+        }
+
+        .parent div {
+            background-color: rgba(255, 255, 255, 0.8);
+            text-align: center;
+            padding: 20px 0;
+            font-size: 30px;
+        }
+
+
+
+
+        .item8 {
+            grid-area: 1 / 2 / 5 / 6;
+        }
+
+
+        .item16 {
+            grid-area: header;
+        }
+
+        .item17 {
+            grid-area: menu;
+        }
+
+        .item18 {
+            grid-area: main;
+        }
+
+        .item19 {
+            grid-area: right;
+        }
+
+        .item20 {
+            grid-area: footer;
+        }
+
+        .grid-container {
+            margin-top: 50px;
+            
+            display: grid;
+            grid-template-areas:
+                'header header header header header header'
+                'menu main main main right right'
+                'menu footer footer footer footer footer';
+            grid-gap: 10px;
+            background-color: #2196F3;
+            padding: 10px;
+        }
+
+        .grid-container>div {
+            background-color: rgba(255, 255, 255, 0.8);
+            text-align: center;
+            padding: 20px 0;
+            font-size: 30px;
+            
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parent">
+        <div class="item1">1</div>
+        <div class="item2">2</div>
+        <div class="item3">3</div>
+        <div class="item4">4</div>
+        <div class="item5">5</div>
+        <div class="item6">6</div>
+        <div class="item7">7</div>
+        <div class="item8">8</div>
+        <div class="item9">9</div>
+        <div class="item10">10</div>
+        <div class="item11">11</div>
+        <div class="item12">12</div>
+        <div class="item13">13</div>
+        <div class="item14">14</div>
+        <div class="item15">15</div>
+    </div>
+
+
+    <div class="grid-container">
+        <div class="item16">Header</div>
+        <div class="item17">Menu</div>
+        <div class="item18">Main</div>
+        <div class="item19">Right</div>
+        <div class="item20">Footer</div>
+    </div>
+</body>
+
+</html>
