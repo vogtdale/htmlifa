@@ -1,0 +1,172 @@
+@media only screen and (max-width: 768px) {
+  * {
+    font-size: 15px;
+  }
+  .wrapper {
+    display: flex;
+    flex: 1;
+    width: 100%;
+  }
+  .menu {
+      display:none;
+  }
+
+  .jumbo {
+    display: flex;
+    flex: 1;
+    width: 100%;
+  }
+  .btn {
+    padding: 10px 55px;
+    margin-left: 35%;
+  }
+  .ourWorks {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    height: 100%;
+  }
+  .pricing {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    height: 100%;
+  }
+
+  .contact {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    height: 100%;
+  }
+  .footer {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    height: 100%;
+  }
+  .send {
+    width: 84%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  h1 {
+    font-size: 28px !important;
+  }
+  p {
+    font-size: 15px !important;
+    line-height: 35px !important;
+  }
+  .wrapper {
+    display: flex;
+    flex-shrink: inherit;
+    width: 100%;
+  }
+  .menu ul {
+    font-size: 12px;
+  }
+  .jumbo {
+    display: flex;
+    flex-shrink: inherit;
+    width: 100%;
+  }
+
+  .ourWorks {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    height: 100%;
+  }
+
+  .pricing {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+  }
+
+  .contact {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    height: 100%;
+  }
+  .footer {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media only screen and (min-width: 2000px) {
+  h1 {
+    font-size: 55px !important;
+  }
+  p {
+    font-size: 35px !important;
+    line-height: 35px !important;
+  }
+  .wrapper {
+    display: flex;
+    flex-shrink: inherit;
+    width: 100%;
+  }
+
+  .logo h1 {
+    font-size: 35px !important;
+  }
+  
+  .menu a {
+    font-size: 15px;
+    
+  }
+  
+  .jumbo {
+    display: flex;
+    flex-shrink: inherit;
+    width: 100%;
+    background-size: 100vw 100vh;
+  }
+  .btn {
+    font-size: 35px;
+  }
+
+  .jumbo h1 {
+    font-size: 55px;
+  }
+
+  .logoimg img {
+    height: 250px;
+  }
+
+  .ourWorks {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    height: 100%;
+  }
+
+  .pricing {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+  }
+
+  .contact {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    height: 100%;
+  }
+  .footer {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    height: 100%;
+  }
+}
